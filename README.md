@@ -12,7 +12,7 @@ It helps farmers and researchers make data-driven decisions for better productiv
 ---
 
 ## 🧩 Folder Structure
-
+```bash
 crop-recommendation/
 │
 ├── data/ # Contains datasets (raw and processed)
@@ -34,7 +34,7 @@ crop-recommendation/
 │
 ├── requirements.txt # Dependencies list
 └── README.md # Project documentation
-
+```
 ---
 
 ## ⚙️ Setup Instructions
