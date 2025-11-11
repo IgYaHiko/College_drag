@@ -1,14 +1,52 @@
-# Ignore virtual environment
+# 🧠 Python virtual environments
 venv/
 env/
 .venv/
 
-# Python cache files
+# 🧩 Python cache and bytecode
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# VS Code settings
+# 🗂️ Environment and config files
+.env
+*.env
+
+# 🧰 IDE and editor settings
 .vscode/
+.idea/
 
-# macOS system file
+# 🍎 macOS system files
 .DS_Store
+
+# 🤖 Machine Learning / Model Files
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.onnx
+*.pkl
+*.joblib
+
+# 📦 Model checkpoints and weights folders
+checkpoints/
+models/
+outputs/
+saved_models/
+runs/
+
+# 📊 Data folders (optional — uncomment if needed)
+# data/
+# datasets/
+# logs/
+# results/
+
+# 🚀 Streamlit cache and generated files
+.streamlit/
+*.log
+
+# 🧱 Node or React build files (if using frontend)
+node_modules/
+dist/
+build/
